@@ -1,0 +1,38 @@
+html {
+    font-family:monospace;
+    font-size: large;
+}
+.div-config {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.quantity-div-config {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.currency {
+    color: orangered;
+}
+.botton-style {
+    color: white;
+    background-color: orangered;
+    border-radius: 2px;
+    border-color: orangered;
+    margin: 20px 5px 5px;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: large;
+}
+.fieldset-style {
+    width: 30%;
+    border-radius: 5px;
+}
+.div-config-margin {
+    margin-top: 20px;
+}
+.form-div-config {
+    margin: 30px 20px 10px;
+    align-items: center;
+}

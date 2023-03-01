@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plane-Booking</title>
+    <link rel="stylesheet" href="./booking-form-style.css">
+</head>
+<body>
+<div class="form-div-config">
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+    <fieldset class="fieldset-style">
+        <div class="div-config div-config-margin">
+        <label for "origin"><b>Flying form</b></label><br>
+        <select id = "origin" name = "origin" size = 1>
+            <option value="bangkok-thailand">Bangkok, Thailand</option>
+            <option value="new-york-usa">New York, USA</option>
+            <option value="london-england">London, England</option>
+        </select>
+    </div>
+    <div class="div-config">
+        <label for "destination"><b>To</b></label><br>
+        <select id = "destination" name = "destination" size = 1>
+            <option value="new-jersey-usa">New Jersey, USA</option>
+            <option value="beijing-china">Beijing, China</option>
+            <option value="seoul-south-korea">Seoul, South Korea</option>
+        </select>
+    </div><br>
+    <div class="div-config">
+            <label for="departing" style = "margin-right: 55px;"><b>Departing</b></label><br>
+            <input type="date" id="departing" name="departing">
+    </div>
+    <div class="div-config">
+        <label for="returning"><b>Returning</b></label><br>
+        <input type="date" id="returning" name="returning">
+    </div><br>
+    <div class="div-config" style="margin-left: 25px;">
+        <div class="quantity-div-config">
+            <label for="adult-quantity"><b>Adult</b></label><br>
+            <input type="number" id="adult-quantity" name="adult-quantity" min="0" max="10">
+        </div>
+        <div class="quantity-div-config">
+            <label for="infant-quantity"><b>Child</b></label><br>
+            <input type="number" id="child-quantity" name="child-quantity" min="0" max="10">
+        </div>
+        <div class="quantity-div-config">
+            <label for="infant-quantity"><b>Infant</b></label><br>
+            <input type="number" id="infant-quantity" name="infant-quantity" min="0" max="10">
+        </div>
+        <div class="quantity-div-config">
+            <label class="currency" for "currency"><b>Currency</b></label><br>
+            <select id = "currency" name = "currency" size = 1>
+                <option value="thai-bath">Thailand, Bath</option>
+                <option value="us-dollar">USA, Dollar</option>
+                <option value="korea-won">Korea, Won</option>
+                <option value="euro">Euro</option>
+                <option value="china-yuan">China, Yuan</option>
+            </select>
+        </div><br>
+        <input class="botton-style" type="submit" value="SEARCH">
+    </div>
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>
